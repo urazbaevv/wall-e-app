@@ -1361,7 +1361,7 @@ with tab1:
             st.markdown(f"""
             <div class="feature-box">
                 <h4>{tech['icon']} {tech['name']}</h4>
-                <p style="color: var(--text-color); opacity: 0.8; margin: 5px 0;">{tech['purpose']}</p>
+                <p style="opacity: 0.7; margin: 5px 0;">{tech['purpose']}</p>
             </div>
             """, unsafe_allow_html=True)
         
@@ -1377,7 +1377,7 @@ with tab1:
             st.markdown(f"""
             <div class="feature-box">
                 <h4>{tech['icon']} {tech['name']}</h4>
-                <p style="color: var(--text-color); opacity: 0.8; margin: 5px 0;">{tech['purpose']}</p>
+                <p style="opacity: 0.7; margin: 5px 0;">{tech['purpose']}</p>
             </div>
             """, unsafe_allow_html=True)
     
@@ -1396,7 +1396,7 @@ with tab1:
             st.markdown(f"""
             <div class="feature-box">
                 <h4>{tech['icon']} {tech['name']}</h4>
-                <p style="color: var(--text-color); opacity: 0.8; margin: 5px 0;">{tech['purpose']}</p>
+                <p style="opacity: 0.7; margin: 5px 0;">{tech['purpose']}</p>
             </div>
             """, unsafe_allow_html=True)
         
@@ -1412,11 +1412,11 @@ with tab1:
             st.markdown(f"""
             <div class="feature-box">
                 <h4>{tech['icon']} {tech['name']}</h4>
-                <p style="color: var(--text-color); opacity: 0.8; margin: 5px 0;">{tech['purpose']}</p>
+                <p style="opacity: 0.7; margin: 5px 0;">{tech['purpose']}</p>
             </div>
             """, unsafe_allow_html=True)
     
-    # Tech Stack Chart
+    # Tech Stack Chart - ADAPTIVE COLORS
     st.markdown(f"### 📊 {get_text('tech_distribution')}")
     tech_distribution = pd.DataFrame({
         'Category': ['Backend', 'Frontend', 'AI/ML', 'IoT', 'Database', 'DevOps'],
@@ -1428,7 +1428,7 @@ with tab1:
     fig_tech.update_layout(
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
-        font=dict(color='white', size=14)
+        # Font rangini olib tashladim - avtomatik moslashadi
     )
     st.plotly_chart(fig_tech, use_container_width=True)
 
