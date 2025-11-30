@@ -17,6 +17,31 @@ EMAIL_ADDRESS = "orazbaevqudaybergen0@gmail.com"
 EMAIL_PASSWORD = "jwig ssky uiuy djli"
 RECIPIENT_EMAIL = "iskandarovasilbek70@gmail.com"
 
+
+# Custom CSS - har ikkala rejimda ham yaxshi ko'rinadi
+st.markdown("""
+    <style>
+    /* Text har doim ko'rinadi */
+    .stMarkdown, .stText {
+        color: var(--text-color) !important;
+    }
+    
+    /* Dark mode uchun */
+    @media (prefers-color-scheme: dark) {
+        .stMarkdown, .stText, p, h1, h2, h3, h4, h5, h6, label {
+            color: #FFFFFF !important;
+        }
+    }
+    
+    /* Light mode uchun */
+    @media (prefers-color-scheme: light) {
+        .stMarkdown, .stText, p, h1, h2, h3, h4, h5, h6, label {
+            color: #000000 !important;
+        }
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 # 🌐 Til sozlamalari
 LANGUAGES = {
     "uz": {
@@ -1317,7 +1342,7 @@ tab1, tab2, tab3, tab4 = st.tabs([
 ])
 
 with tab1:
-    st.markdown(f'<div class="section-title">🛠️ {get_text("tools_tech")}</div>', unsafe_allow_html=True)
+    # st.markdown(f'<div class="section-title">🛠️ {get_text("tools_tech")}</div>', unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
     
@@ -1408,7 +1433,7 @@ with tab1:
     st.plotly_chart(fig_tech, use_container_width=True)
 
 with tab2:
-    st.markdown(f'<div class="section-title">🤖 {get_text("ai_usage")}</div>', unsafe_allow_html=True)
+   # st.markdown(f'<div class="section-title">🤖 {get_text("ai_usage")}</div>', unsafe_allow_html=True)
     
     st.markdown(f"### 🎯 {get_text('main_ai_components')}")
     
@@ -1467,7 +1492,7 @@ with tab2:
         st.metric(get_text("anomaly_detection"), "96.8%", "+1.2%")
 
 with tab3:
-    st.markdown(f'<div class="section-title">📊 {get_text("system_arch")}</div>', unsafe_allow_html=True)
+   # st.markdown(f'<div class="section-title">📊 {get_text("system_arch")}</div>', unsafe_allow_html=True)
     
     st.markdown(f"### 🏗️ {get_text('system_arch')}")
     
@@ -1510,7 +1535,7 @@ with tab3:
     st.plotly_chart(fig_arch, use_container_width=True)
 
 with tab4:
-    st.markdown(f'<div class="section-title">💡 {get_text("innovation_features")}</div>', unsafe_allow_html=True)
+   # st.markdown(f'<div class="section-title">💡 {get_text("innovation_features")}</div>', unsafe_allow_html=True)
     
     st.markdown(f"### 🌟 {get_text('our_innovation')}")
     
