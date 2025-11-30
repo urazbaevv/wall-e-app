@@ -102,9 +102,9 @@ LANGUAGES = {
         "next_9_months": "Keyingi 9 oy",
         "next_9_period": "13-21 oy",
         "next_9_desc": "Barcha viloyatlarda 1000 ta konteyner bilan",
-        "year_2027": "2027 yil",
-        "year_2027_period": "2027 yil",
-        "year_2027_desc": "'TOZA HUDUD'ga ulangan barcha konteynerlarni qamrab olish",
+        "year_2026": "2026 yil",
+        "year_2026_period": "2026 yil",
+        "year_2026_desc": "'TOZA HUDUD'ga ulangan barcha konteynerlarni qamrab olish",
         "timeline_viz": "Loyiha vaqt jadvali vizualizatsiyasi",
         "detailed_phase": "Fazalar bo'yicha batafsil ma'lumot",
         "timeline": "Vaqt jadvali",
@@ -261,9 +261,9 @@ LANGUAGES = {
         "next_9_months": "Следующие 9 месяцев",
         "next_9_period": "13-21 месяцев",
         "next_9_desc": "Во всех регионах с 1000 контейнерами",
-        "year_2027": "2027 год",
-        "year_2027_period": "2027 год",
-        "year_2027_desc": "Покрыть все контейнеры, подключенные к 'ЧИСТАЯ ТЕРРИТОРИЯ'",
+        "year_2026": "2026 год",
+        "year_2026_period": "2026 год",
+        "year_2026_desc": "Покрыть все контейнеры, подключенные к 'ЧИСТАЯ ТЕРРИТОРИЯ'",
         "timeline_viz": "Визуализация временной шкалы проекта",
         "detailed_phase": "Подробная информация по фазам",
         "timeline": "Временная шкала",
@@ -420,9 +420,9 @@ LANGUAGES = {
         "next_9_months": "Next 9 Months",
         "next_9_period": "Month 13-21",
         "next_9_desc": "In All Regions with 1000 containers",
-        "year_2027": "2027",
-        "year_2027_period": "Year 2027",
-        "year_2027_desc": "Cover every container which is connected to 'CLEAN AREA'",
+        "year_2026": "2026",
+        "year_2026_period": "Year 2026",
+        "year_2026_desc": "Cover every container which is connected to 'CLEAN AREA'",
         "timeline_viz": "Project Timeline Visualization",
         "detailed_phase": "Detailed Phase Information",
         "timeline": "Timeline",
@@ -1245,7 +1245,7 @@ progress_col1, progress_col2, progress_col3 = st.columns(3)
 with progress_col1:
     st.metric(get_text("current_phase"), get_text("test_mode"), "✅ Active")
 with progress_col2:
-    st.metric(get_text("total_duration"), f"24+ {get_text('months')}", "2026-2027")
+    st.metric(get_text("total_duration"), f"24+ {get_text('months')}", "2025-2026")
 with progress_col3:
     st.metric(get_text("target_containers"), "1000+", "By 2026")
 
@@ -1253,10 +1253,10 @@ with progress_col3:
 st.markdown(f"## 🎯 {get_text('key_milestones')}")
 
 milestones = [
-    {"date": "Q1 2026", "event": get_text("launch_test"), "status": "completed"},
-    {"date": "Q4 2026", "event": get_text("expand_region"), "status": "in-progress"},
+    {"date": "Q1 2025", "event": get_text("launch_test"), "status": "completed"},
+    {"date": "Q4 2025", "event": get_text("expand_region"), "status": "in-progress"},
     {"date": "Q3 2026", "event": get_text("deploy_all"), "status": "upcoming"},
-    {"date": "2027", "event": get_text("full_toza"), "status": "upcoming"},
+    {"date": "2026", "event": get_text("full_toza"), "status": "upcoming"},
 ]
 
 for milestone in milestones:
