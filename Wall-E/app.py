@@ -91,7 +91,7 @@ LANGUAGES = {
         "solution3": "Maxsus sensorlar asosida qo'ng'iroq markaziga avtomatik xabarnomalar yuborish mumkin.",
         "why_us": "Nega aynan bizning jamoa",
         "why_us_text": "Bizning guruh ayni muammoni hal qila oladi. Bizning guruh a'zolari ko'plab Hackathonlarda qatnashib kelgan, xususan 'Navruz Hackathon 2025, Anti-corruption va Coding Challenge'larda munosib qatnashib kelmoqda. Bundan tashqari, bizning guruh Frontend, Backend, Full-stack, AI developerlardan va UI/UX Designerlardan tashkil topgan.",
-        "roadmap_title": "VAQT JADVALI DOIM YAXSHI ISHLAYDI",
+
         "roadmap_label": "YO'L XARITASI:",
         "test_mode": "Test rejimi",
         "test_mode_period": "Hozirgi - 6 oy",
@@ -102,9 +102,9 @@ LANGUAGES = {
         "next_9_months": "Keyingi 9 oy",
         "next_9_period": "13-21 oy",
         "next_9_desc": "Barcha viloyatlarda 1000 ta konteyner bilan",
-        "year_2026": "2026 yil",
-        "year_2026_period": "2026 yil",
-        "year_2026_desc": "'TOZA HUDUD'ga ulangan barcha konteynerlarni qamrab olish",
+        "year_2027": "2027 yil",
+        "year_2027_period": "2027 yil",
+        "year_2027_desc": "'TOZA HUDUD'ga ulangan barcha konteynerlarni qamrab olish",
         "timeline_viz": "Loyiha vaqt jadvali vizualizatsiyasi",
         "detailed_phase": "Fazalar bo'yicha batafsil ma'lumot",
         "timeline": "Vaqt jadvali",
@@ -1245,18 +1245,18 @@ progress_col1, progress_col2, progress_col3 = st.columns(3)
 with progress_col1:
     st.metric(get_text("current_phase"), get_text("test_mode"), "✅ Active")
 with progress_col2:
-    st.metric(get_text("total_duration"), f"24+ {get_text('months')}", "2024-2026")
+    st.metric(get_text("total_duration"), f"24+ {get_text('months')}", "2026-2027")
 with progress_col3:
-    st.metric(get_text("target_containers"), "1000+", "By 2026")
+    st.metric(get_text("target_containers"), "1000+", "By 2027")
 
 # Milestones
 st.markdown(f"## 🎯 {get_text('key_milestones')}")
 
 milestones = [
-    {"date": "Q1 2024", "event": get_text("launch_test"), "status": "completed"},
-    {"date": "Q4 2024", "event": get_text("expand_region"), "status": "in-progress"},
-    {"date": "Q3 2025", "event": get_text("deploy_all"), "status": "upcoming"},
-    {"date": "2026", "event": get_text("full_toza"), "status": "upcoming"},
+    {"date": "Q1 2026", "event": get_text("launch_test"), "status": "completed"},
+    {"date": "Q4 2026", "event": get_text("expand_region"), "status": "in-progress"},
+    {"date": "Q3 2026", "event": get_text("deploy_all"), "status": "upcoming"},
+    {"date": "2027", "event": get_text("full_toza"), "status": "upcoming"},
 ]
 
 for milestone in milestones:
