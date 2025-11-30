@@ -10,6 +10,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
+from groq import Groq
 
 # 📌 Email sozlamalari
 EMAIL_ADDRESS = "orazbaevqudaybergen0@gmail.com"
@@ -1335,7 +1336,7 @@ with tab1:
             st.markdown(f"""
             <div class="feature-box">
                 <h4>{tech['icon']} {tech['name']}</h4>
-                <p style="color: #666; margin: 5px 0;">{tech['purpose']}</p>
+                <p style="color: var(--text-color); opacity: 0.8; margin: 5px 0;">{tech['purpose']}</p>
             </div>
             """, unsafe_allow_html=True)
         
@@ -1351,7 +1352,7 @@ with tab1:
             st.markdown(f"""
             <div class="feature-box">
                 <h4>{tech['icon']} {tech['name']}</h4>
-                <p style="color: #666; margin: 5px 0;">{tech['purpose']}</p>
+                <p style="color: var(--text-color); opacity: 0.8; margin: 5px 0;">{tech['purpose']}</p>
             </div>
             """, unsafe_allow_html=True)
     
@@ -1370,7 +1371,7 @@ with tab1:
             st.markdown(f"""
             <div class="feature-box">
                 <h4>{tech['icon']} {tech['name']}</h4>
-                <p style="color: #666; margin: 5px 0;">{tech['purpose']}</p>
+                <p style="color: var(--text-color); opacity: 0.8; margin: 5px 0;">{tech['purpose']}</p>
             </div>
             """, unsafe_allow_html=True)
         
@@ -1386,7 +1387,7 @@ with tab1:
             st.markdown(f"""
             <div class="feature-box">
                 <h4>{tech['icon']} {tech['name']}</h4>
-                <p style="color: #666; margin: 5px 0;">{tech['purpose']}</p>
+                <p style="color: var(--text-color); opacity: 0.8; margin: 5px 0;">{tech['purpose']}</p>
             </div>
             """, unsafe_allow_html=True)
     
