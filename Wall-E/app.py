@@ -1341,7 +1341,7 @@ tab1, tab2, tab3, tab4 = st.tabs([
 ])
 
 with tab1:
-    st.markdown(f'<div class="section-title">🛠️ {get_text("tools_tech")}</div>', unsafe_allow_html=True)
+    # st.markdown(f'<div class="section-title">🛠️ {get_text("tools_tech")}</div>', unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
     
