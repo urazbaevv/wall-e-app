@@ -91,7 +91,7 @@ LANGUAGES = {
         "solution3": "Maxsus sensorlar asosida qo'ng'iroq markaziga avtomatik xabarnomalar yuborish mumkin.",
         "why_us": "Nega aynan bizning jamoa",
         "why_us_text": "Bizning guruh ayni muammoni hal qila oladi. Bizning guruh a'zolari ko'plab Hackathonlarda qatnashib kelgan, xususan 'Navruz Hackathon 2025, Anti-corruption va Coding Challenge'larda munosib qatnashib kelmoqda. Bundan tashqari, bizning guruh Frontend, Backend, Full-stack, AI developerlardan va UI/UX Designerlardan tashkil topgan.",
-
+        "roadmap_title": "VAQT JADVALI DOIM YAXSHI ISHLAYDI",
         "roadmap_label": "YO'L XARITASI:",
         "test_mode": "Test rejimi",
         "test_mode_period": "Hozirgi - 6 oy",
@@ -261,9 +261,9 @@ LANGUAGES = {
         "next_9_months": "Следующие 9 месяцев",
         "next_9_period": "13-21 месяцев",
         "next_9_desc": "Во всех регионах с 1000 контейнерами",
-        "year_2026": "2026 год",
-        "year_2026_period": "2026 год",
-        "year_2026_desc": "Покрыть все контейнеры, подключенные к 'ЧИСТАЯ ТЕРРИТОРИЯ'",
+        "year_2027": "2027 год",
+        "year_2027_period": "2027 год",
+        "year_2027_desc": "Покрыть все контейнеры, подключенные к 'ЧИСТАЯ ТЕРРИТОРИЯ'",
         "timeline_viz": "Визуализация временной шкалы проекта",
         "detailed_phase": "Подробная информация по фазам",
         "timeline": "Временная шкала",
@@ -420,9 +420,9 @@ LANGUAGES = {
         "next_9_months": "Next 9 Months",
         "next_9_period": "Month 13-21",
         "next_9_desc": "In All Regions with 1000 containers",
-        "year_2026": "2026",
-        "year_2026_period": "Year 2026",
-        "year_2026_desc": "Cover every container which is connected to 'CLEAN AREA'",
+        "year_2027": "2027",
+        "year_2027_period": "Year 2027",
+        "year_2027_desc": "Cover every container which is connected to 'CLEAN AREA'",
         "timeline_viz": "Project Timeline Visualization",
         "detailed_phase": "Detailed Phase Information",
         "timeline": "Timeline",
@@ -1247,7 +1247,7 @@ with progress_col1:
 with progress_col2:
     st.metric(get_text("total_duration"), f"24+ {get_text('months')}", "2026-2027")
 with progress_col3:
-    st.metric(get_text("target_containers"), "1000+", "By 2027")
+    st.metric(get_text("target_containers"), "1000+", "By 2026")
 
 # Milestones
 st.markdown(f"## 🎯 {get_text('key_milestones')}")
