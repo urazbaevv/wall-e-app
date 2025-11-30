@@ -1245,9 +1245,9 @@ progress_col1, progress_col2, progress_col3 = st.columns(3)
 with progress_col1:
     st.metric(get_text("current_phase"), get_text("test_mode"), "✅ Active")
 with progress_col2:
-    st.metric(get_text("total_duration"), f"24+ {get_text('months')}", "2025-2026")
+    st.metric(get_text("total_duration"), f"24+ {get_text('months')}", "2025-2027")
 with progress_col3:
-    st.metric(get_text("target_containers"), "1000+", "By 2026")
+    st.metric(get_text("target_containers"), "1000+", "By 2027")
 
 # Milestones
 st.markdown(f"## 🎯 {get_text('key_milestones')}")
@@ -1256,7 +1256,7 @@ milestones = [
     {"date": "Q1 2025", "event": get_text("launch_test"), "status": "completed"},
     {"date": "Q4 2025", "event": get_text("expand_region"), "status": "in-progress"},
     {"date": "Q3 2026", "event": get_text("deploy_all"), "status": "upcoming"},
-    {"date": "2026", "event": get_text("full_toza"), "status": "upcoming"},
+    {"date": "2027", "event": get_text("full_toza"), "status": "upcoming"},
 ]
 
 for milestone in milestones:
