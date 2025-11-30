@@ -1432,7 +1432,7 @@ with tab1:
     st.plotly_chart(fig_tech, use_container_width=True)
 
 with tab2:
-    st.markdown(f'<div class="section-title">🤖 {get_text("ai_usage")}</div>', unsafe_allow_html=True)
+   # st.markdown(f'<div class="section-title">🤖 {get_text("ai_usage")}</div>', unsafe_allow_html=True)
     
     st.markdown(f"### 🎯 {get_text('main_ai_components')}")
     
@@ -1491,7 +1491,7 @@ with tab2:
         st.metric(get_text("anomaly_detection"), "96.8%", "+1.2%")
 
 with tab3:
-    st.markdown(f'<div class="section-title">📊 {get_text("system_arch")}</div>', unsafe_allow_html=True)
+   # st.markdown(f'<div class="section-title">📊 {get_text("system_arch")}</div>', unsafe_allow_html=True)
     
     st.markdown(f"### 🏗️ {get_text('system_arch')}")
     
@@ -1534,7 +1534,7 @@ with tab3:
     st.plotly_chart(fig_arch, use_container_width=True)
 
 with tab4:
-    st.markdown(f'<div class="section-title">💡 {get_text("innovation_features")}</div>', unsafe_allow_html=True)
+   # st.markdown(f'<div class="section-title">💡 {get_text("innovation_features")}</div>', unsafe_allow_html=True)
     
     st.markdown(f"### 🌟 {get_text('our_innovation')}")
     
