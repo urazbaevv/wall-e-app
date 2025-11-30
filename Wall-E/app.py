@@ -16,6 +16,31 @@ EMAIL_ADDRESS = "orazbaevqudaybergen0@gmail.com"
 EMAIL_PASSWORD = "jwig ssky uiuy djli"
 RECIPIENT_EMAIL = "iskandarovasilbek70@gmail.com"
 
+
+# Custom CSS - har ikkala rejimda ham yaxshi ko'rinadi
+st.markdown("""
+    <style>
+    /* Text har doim ko'rinadi */
+    .stMarkdown, .stText {
+        color: var(--text-color) !important;
+    }
+    
+    /* Dark mode uchun */
+    @media (prefers-color-scheme: dark) {
+        .stMarkdown, .stText, p, h1, h2, h3, h4, h5, h6, label {
+            color: #FFFFFF !important;
+        }
+    }
+    
+    /* Light mode uchun */
+    @media (prefers-color-scheme: light) {
+        .stMarkdown, .stText, p, h1, h2, h3, h4, h5, h6, label {
+            color: #000000 !important;
+        }
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 # 🌐 Til sozlamalari
 LANGUAGES = {
     "uz": {
