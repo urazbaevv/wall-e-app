@@ -15,7 +15,7 @@ from groq import Groq
 # 📌 Email sozlamalari
 EMAIL_ADDRESS = "orazbaevqudaybergen0@gmail.com"
 EMAIL_PASSWORD = "jwig ssky uiuy djli"
-RECIPIENT_EMAIL = "jasurbekmaxamtjonov0603@gmail.com"
+RECIPIENT_EMAIL = "jasurbekmaxamatjonov0603@gmail.com"
 
 
 # Custom CSS - har ikkala rejimda ham yaxshi ko'rinadi
