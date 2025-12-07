@@ -530,7 +530,7 @@ set_background(image_base64)
 
 def send_email(full_containers):
     sender_email = "orazbaevqudaybergen0@gmail.com"
-    receiver_email = "iskandarovasilbek70@gmail.com"
+    receiver_email = "jasurbekmaxamatjonov0603@gmail.com"
     app_password = "jwig ssky uiuy djli"
 
     if not full_containers:
